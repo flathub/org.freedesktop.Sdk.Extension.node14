@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component type="runtime">
+<component type="addon">
   <id>org.freedesktop.Sdk.Extension.node14</id>
+  <extends>org.freedesktop.Sdk</extends>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>MIT</project_license>
-  <name>Node.js SDK extension</name>
-  <summary>Node.js SDK extension</summary>
-  <description>
-    <p>This SDK extension allows you to build and run Node.js-based apps.</p>
-  </description>
+  <name>Node.js 14.x</name>
+  <summary>JavaScript runtime built on V8 JavaScript engine</summary>
   <url type="homepage">https://nodejs.org/</url>
   <releases>
     <release version="14.15.1" date="2020-11-16"/>
