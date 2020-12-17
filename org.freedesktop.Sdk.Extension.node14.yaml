@@ -20,14 +20,14 @@ modules:
   - name: node
     sources:
       - type: archive
-        url: https://nodejs.org/dist/latest-v14.x/node-v14.15.2.tar.xz
-        sha256: e029df267f969ef2a7b6d096d85539286f83f44aa53cdc3863cbe9ae53d8e680
+        url: https://nodejs.org/dist/latest-v14.x/node-v14.15.3.tar.xz
+        sha256: 32cfb19be9bd15cfdfaf842b29c80cc1c1c4b841a3b8ce05de74e1aca1cbf4fe
         x-checker-data:
           type: html
           url: https://nodejs.org/dist/latest-v14.x/
           url-pattern: (node-v[\d\.-]+.tar.xz)
           version-pattern: node-v([\d\.-]+).tar.xz
-        size: 33292800
+        size: 33302128
     config-opts:
       - --openssl-use-def-ca-store
       - --shared-openssl
