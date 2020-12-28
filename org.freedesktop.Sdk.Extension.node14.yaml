@@ -45,11 +45,11 @@ modules:
       - type: script
         dest-filename: install.sh
         commands:
-          - install -Dm 755 ${FLATPAK_DEST}/bin/node ${FLATPAK_DEST}/node/bin/node
+          - install -Dm 755 /usr/lib/sdk/node14/bin/node ${FLATPAK_DEST}/node/bin/node
       - type: script
         dest-filename: install-sdk.sh
         commands:
-          - cp -r ${FLATPAK_DEST} ${FLATPAK_DEST}/node
+          - cp -r /usr/lib/sdk/node14 ${FLATPAK_DEST}/node
       - type: script
         commands:
           - export PATH=$PATH:/usr/lib/sdk/node14/bin
