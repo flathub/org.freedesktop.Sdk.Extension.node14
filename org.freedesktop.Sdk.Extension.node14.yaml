@@ -20,8 +20,8 @@ modules:
   - name: node
     sources:
       - type: archive
-        url: https://nodejs.org/dist/v14.20.0/node-v14.20.0.tar.xz
-        sha256: 2b5098498889d1e6a9709d63f3d6f94e696a5ad8221618c5d51159cee363996a
+        url: https://nodejs.org/dist/v14.21.1/node-v14.21.1.tar.xz
+        sha256: 3db95d6ca728957bf090b6301a7a9d2d80714b2a06d898a1db65c6e42b1da7ac
         x-checker-data:
           type: json
           url: https://nodejs.org/dist/index.json
