@@ -34,7 +34,7 @@ modules:
           is-main-source: true
     config-opts:
       - --openssl-use-def-ca-store
-      - --shared-openssl
+      - --openssl-system-ca-path=/etc/ssl/cert.pem
       - --shared-zlib
       - --with-intl=system-icu
 
